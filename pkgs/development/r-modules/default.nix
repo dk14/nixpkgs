@@ -437,6 +437,7 @@ let
     glmnet = [ pkgs.libiconv ];
     mvtnorm = [ pkgs.libiconv ];
     statmod = [ pkgs.libiconv ];
+    hexbin = [ pkgs.libiconv ];
   };
 
   packagesRequireingX = [
