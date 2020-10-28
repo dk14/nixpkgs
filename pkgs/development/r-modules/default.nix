@@ -263,6 +263,7 @@ let
     graphscan = [ pkgs.gsl_1 ];
     gsl = [ pkgs.gsl_1 ];
     haven = [ pkgs.libiconv pkgs.zlib.dev ];
+    hexbin = [ pkgs.libiconv ];
     h5vc = [ pkgs.zlib.dev ];
     HiCseg = [ pkgs.gsl_1 ];
     imager = [ pkgs.x11 ];
