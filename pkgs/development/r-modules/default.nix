@@ -382,6 +382,7 @@ let
     affyio = [ pkgs.zlib.dev ];
     VariantAnnotation = [ pkgs.zlib.dev ];
     snpStats = [ pkgs.zlib.dev ];
+    hexbin = [ pkgs.libiconv ];
   };
 
   packagesWithBuildInputs = {
@@ -452,6 +453,7 @@ let
     sundialr = [ pkgs.libiconv ];
     ucminf = [ pkgs.libiconv ];
     glmnet = [ pkgs.libiconv ];
+    hexbin = [ pkgs.libiconv ];
   };
 
   packagesRequireingX = [
